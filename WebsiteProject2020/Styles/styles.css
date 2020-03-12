@@ -1,0 +1,91 @@
+html{
+    font-family: sans-serif;
+    background-color: cornsilk
+}
+
+header section{
+    background-image: url(../Images/tempDigger.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+header h1{
+    font-family: serif;
+    font-size: 60px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: blue;
+}
+
+nav {
+    padding: 5px;
+}
+
+nav ul {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li {
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    background-color: grey;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+}
+
+nav ul li:hover {
+    background-color: mediumaquamarine;
+}
+
+#headLogo {
+    margin-left: 35%;
+    float: left;
+    width: 100px;
+}
+
+main section{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border: 1px solid transparent;
+}
+
+main section p{
+    font-size: 1.5em;
+}
+
+footer{
+    background-color: grey;
+    border: 1px solid transparent;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+footer ul li{
+    margin-left: 10px;
+    list-style-type: none;
+    display: inline;
+}
+.left {
+    float: left;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.right {
+    float: right;
+}
