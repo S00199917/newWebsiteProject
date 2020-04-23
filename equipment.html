@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>Plant Plus Ltd.</title>
+        <link rel="icon" type="image/png" href="Images/favicon-32x32.png" sizes="32x32">
         <meta charset="utf-8">
         <meta name="description" content="This website is to promote Plant Plus Ltd.">
         <meta name="keywords" content="plant machiner, self drive hire, dumpers, rollers, teleporters, diggers, rubber tracks, excavators, site containers, plant plus, mayo, west of ireland, connaught, castlebar, swinford, ballina, charlestown, hoses, pipes, jarlath, malone, jarlath malone, oils, batteries">
-        <title>Plant Plus Ltd.</title>
         <link rel="stylesheet" type="text/css" href="Styles/styles.css">
+        <style>
+            .machines{
+                display: block;
+            }
+        </style>
     </head>
     
     <body>
         <header>
-            <img src="Images/oldLogo.jpg" alt="oldLogo.jpg" id="headLogo">
+            <a href="index.html"><img src="Images/oldLogo.jpg" alt="oldLogo.jpg" id="headLogo"></a>
             <h1>Plant Plus Ltd.</h1>
             <section>
             </section>
@@ -26,11 +32,44 @@
         </nav>
         
         <main>
-            <section class="container">
-                <img src="Images/digger.jpg" alt="digger.jpg" class="image">
-                <section class="middle">
-                    <p class="text">Lets try again</p>
-                </section>
+            <aside>
+                <h2>Links</h2>
+                <ul>
+                    <li><a href="index.htmml">Home</a></li>
+                    <li><a href="equipment.html">Equipment</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+                <h2>Social Media</h2>
+                <ul class="lists">
+                    <li><a href="https://m.facebook.com/PLANT-PLUS-LTD-386016961538482/"><img src="Images/facebookLogo.png" alt="facebookLogo.png"></a></li>
+                </ul>
+            </aside>
+            
+            <h3><a href="#diggers">Digger</a> | <a href="#dumpers">Dumper</a> | <a href="#teleporters">Teleporter</a></h3>
+            
+            <section class="machines">
+                    <a name="diggers"></a>
+                    <section class="container">
+                        <img src="Images/digger.jpg" alt="digger.jpg" class="image">
+                        <section class="overlay">
+                            <p class="text">3 ton.<br>6 ton.<br>7 ton.</p>
+                        </section>
+                    </section>
+                    <a name="dumpers"></a>
+                    <section class="container">
+                        <img src="Images/dumper.jpg" alt="dumper.jpg" class="image">
+                        <section class="overlay">
+                            <p class="text">1 ton. high tip<br>3 ton straight tip<br>6  ton. swivel skip<br>9 ton. straight tip</p>
+                        </section>
+                    </section>
+                    <a name="teleporters"></a>
+                    <section class="container">
+                        <img src="Images/teleporter.jpg" alt="teleporter.jpg" class="image">
+                        <section class="overlay">
+                            <p class="text">14 meter<br>17 meter</p>
+                        </section>
+                    </section>
             </section>
         </main>
         <footer>
